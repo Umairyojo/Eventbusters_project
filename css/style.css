@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Urbanist&display=swap');
+
+/* body css  */
+body{
+    font-family: 'Urbanist', sans-serif;
+    overflow-x: hidden;
+}
+
+.title {
+    font-family: 'Great Vibes', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+ /* header css */
+
+header{
+    height: 150px;
+    width: 100vw;
+    background-color: #FFF9F0;
+    box-shadow: 0px 3px 8px  rgba(0, 0, 0, 25%);
+    display: flex;
+    align-items: center;
+}
+
+header .navb-logo {
+    display: flex;
+    align-items: center;
+}
+
+header .cont{
+    font-family: 'Urbanist', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 3px;
+    position: relative;
+    left: 30rem;
+    padding-bottom: 2rem;
+}
+
+header .navb-logo .title{
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+header .container-fluid {
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navb-logo img {
+    width: 160px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+header .navb-items{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 3px;
+    background-color: #FFF9F0;
+    padding-left: 6rem;
+}
+
+header .item {
+    text-align: center;
+    margin-inline: 4%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #102447;
+    padding: 5px 0px;
+    transition: all .1s ease;
+    border-bottom: 0px solid #F3DCA9;
+    border-top: 0px solid #F3DCA9;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+header .item:hover{
+    border-bottom: 3px solid #F3DCA9;  
+    border-top: 3px solid #F3DCA9;  
+}
+
+header .item-button {
+    padding: 12px;
+    background-color: #F3DCA9;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: currentColor;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+header .item-button:hover{
+    background-color: #dfbc68;
+}
+
+@media (max-width: 992px) {
+    header .navb-items {
+        display: none;
+    } 
+}
+
+/* modal css */
+
+.modal-content {
+    background-color: #FFF9F0;
+}
+
+.modal-dialog {
+    margin: 0;
+    width: 430px;
+}
+
+@media (max-width: 450px) {
+    .modal-dialog{
+        width: 233px;
+    }
+}
+
+.modal-content {
+    border-radius: 0;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #F3DCA9;
+}
+
+/* .modal-header title{
+    font-size: x-large;
+} */
+
+.modal-header .btn-close {
+    background: transparent;
+    opacity: 1;
+}
+
+.modal-header i{
+    font-size: 30px;
+}
+
+.modal-body {
+    width: 88%;
+    margin: 0 auto;
+    padding: 75px 0 0 0;
+    flex: unset;
+}
+
+.modal-body .modal-line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 0;
+    margin-bottom:  50px;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: rgba(201, 178, 3, 0.975);
+    border-bottom: 1px solid #F3DCA9;
+}
+
+.modal-body .modal-line:hover{
+    color: #000000;
+    border-bottom: 1px solid #dfbc68;
+}
+
+.modal-line a{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    color: black;
+}
+
+.modal-line i{
+    color: currentColor;
+    font-size: 30px;
+    width: 35px;
+    margin-right: 15px;
+    padding: 0 0 3px 3px;
+}
+
+
+.mobile-modal-footer{
+
+    width: 87%;
+    margin: 0 auto;
+    padding: 20% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+}
+
+.mobile-modal-footer a{
+    font-size: 40px;
+}
+
+.mobile-modal-footer a:hover{
+    transform: scale(1.2);    
+}
+
+.mobile-modal-footer .insta{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 40px; /* change this to change the size*/
+    
+}
+
+/* header bgimg */
+header .container-fluid{
+    background-image: url("../img/ribb.png");
+    background-position: top;    
+}
+
+/* -------------------------------------------------------------- */
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF9F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: fit-content;
+}
