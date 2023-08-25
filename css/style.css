@@ -375,6 +375,9 @@ header .container-fluid {
     border-radius: 90px;
     color: white;
     font-weight: bolder;
+    border: 0;
+    outline: none;
+    cursor: pointer;
 }
 
 .submit-btn{
@@ -400,3 +403,7 @@ form input{
 /* .text-name:hover, .name:hover{
     background-color: #faf5f5;
 } */
+
+.container iframe{
+    box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.5);
+}
