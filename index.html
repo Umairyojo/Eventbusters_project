@@ -13,14 +13,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/form.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="js/form.js"></script> -->
 
 </head>
 
 <body>
     <header>
-
-        <div class="container-fluid py-6">
+        <!-- header start -->
+        <div class="container-fluid py-6" style="min-height: 100vh;">
 
             <div class="navb-logo">
 
@@ -56,6 +59,7 @@
 
             </div>
 
+            <!-- header end  -->
 
             <!-- Button trigger modal -->
             <div class="mobile-toggler d-lg-none">
@@ -118,7 +122,7 @@
     </header>
 
     <!-- Main Section start-->
-    <main>
+    <main class="">
 
         <!-- Slider Section -->
 
@@ -159,17 +163,57 @@
 
         <!-- slider end -->
 
+        <!-- Query Section -->
+        <div class="query">
+            <h3>Looking For Coporate Party Entertainments ?</h3>
+            <p>We offer fuss-free birthday party packages and fun-filled event services to celebrate any occasion. <br>
+                Be it
+                a 1st-year birthday celebration, Naming ceremony events, Corporate Events, Wedding <br> Decoration,
+                private
+                dinner functions, or any Event, Event Buster's team can help you.</p>
+        </div>
+        <!-- Query Section end -->
+
+        <!-- Why us Section -->
+        <!-- <div class="whyus">
+            <div class="row text-center">
+
+                <div class="col-md-12 h-line">
+                    <h1>Why Us ?</h1>
+                </div>
+
+                <div class="col-md-3 ads">
+                    <h3>icons</h3>
+                </div>
+                <div class="col-md-3 ads">
+                    <h3>icons</h3>
+                </div>
+                <div class="col-md-3 ads">
+                    <h3>icons</h3>
+                </div>
+                <div class="col-md-3 ads">
+                    <h3>icons</h3>
+                </div>
+
+                <div class="col-md-12 l-line">
+                    <h4>100% Satifactory Service Provided!</h4>
+                </div>
+
+            </div>
+        </div> -->
+        <!-- Why us Section end -->
+
         <!-- Contact and location start -->
-        <div class="container">
+        <div class="container mt-4 cont-locat">
 
             <div class="row justify-content-evenly "
                 style="background-image: url('/img/blurpark.jpg'); background-repeat: no-repeat; background-size: cover;">
                 <div class="col-md-5 mt-5">
-                    <h3 class="mb-4 text-center text-white fw-bold">Find us on Google Maps</h3>
+                    <h3 class="mb-4 text-center text-white fw-bold">Find us on Google Maps !</h3>
 
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9399706775043!2d77.58810077369301!3d13.03949301338892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1745d8b55615%3A0x91e6b572accedcdc!2sEvent%20Busters!5e0!3m2!1sen!2sin!4v1692900203513!5m2!1sen!2sin"
-                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="95%" height="390" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade" class="mb-5"></iframe>
                 </div>
 
@@ -190,12 +234,15 @@
 
                         <div class="input-name">
                             <i class="fa fa-phone lock" aria-hidden="true"></i><input type="text" name="Phonenumber"
-                                class="text-name" id="phone" placeholder="Mobile Number" required>
+                                class="text-name" id="phone" placeholder="Mobile Number" autocomplete="off"
+                                onkeyup="return validation();" required>
+                            <span id="phone-error"> </span>
                         </div>
 
                         <div class="input-name">
                             <i class="fa fa-envelope lock" aria-hidden="true"></i>
-                            <input type="email" id="email" class="text-name" placeholder="Email ID">
+                            <input type="email" id="email" class="text-name" placeholder="eg:example@gmail.com"
+                                autocomplete="off">
                         </div>
 
                         <div class="input-name">
@@ -204,7 +251,8 @@
                         </div>
 
                         <div class="submit-btn">
-                            <button type="submit" value="button" class="btn">Submit</button>
+                            <button type="submit" value="button" class="btn"
+                                onclick="return validation();">Submit</button>
                         </div>
 
                     </form>
@@ -213,6 +261,96 @@
         </div>
         <!-- C & L end -->
     </main>
+
+    <!-- <footer>
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3 class="title font-weight-bolder">Event Busters</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum.</p>
+
+                    <div class="share">
+                        <a href="" class="fa fa-facebook"></a>
+                        <a href="" class="fa fa-instagram"></a>
+                        <a href="" class="fa fa-twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer> -->
+
+    <footer>
+        <div class="container-fuild">
+            <div class="row justify-content-evenly">
+                <div class="col-md-4 mb-4 text-center buss-name">
+                    <h3 class="title" style="font-size: xxx-large;">Event Busters</h3>
+                    <p style="font-size: 14px; line-height: 0px;">Where Dreams Become . . . </p>
+                    <p style="font-size: 14px; line-height: 0px;">Reality!</p>
+                </div>
+                <div class="col-md-4  socialicon">
+                    <h3>Follow us on</h3><br>
+                    <!-- <div class="social-links"> -->
+                    <a target="_blank" href="#"><i class="fa-brands fa-instagram" style="color: purple;"></i></a>
+                    <a target="_blank" href="#"><i class="fa-brands fa-linkedin" style="color: #0A66C2;"></i></a>
+                    <a target="_blank" href="#"><i class="fa-brands fa-facebook" style="color: #1877F2;"></i></a>
+                    <a target="_blank" href="#"><i class="fa-brands fa-whatsapp" style="color: #05c933;"></i></a>
+                    <!-- </div> -->
+                </div>
+                <div class="col-md-4 contactfooter">
+                    <h3>Contact Us</h3>
+                    <!-- <p>Mail us: <a href="#">eventbusters64@gmail.com</a></p> -->
+                    <p>Call on: 8618879032</p>
+                    <p>Mail us: <a href="#">eventbusters65@gmail.com</a></p>
+                </div>
+                <div class="col-md-12 t-4 copy-right">
+                    <p>All &copy Rights Reserved to Eventbusters.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- <script>
+        function validData(){
+            var phone = document.getElementById('phone').value;
+
+            if (!phone.match(/^[0-9]{10}$/)) {
+                document.getElementById('phone-error').innerHTML = "Invalid Phone Number";
+                return false;
+            }
+            else{
+                document.getElementById('phone-error').innerHTML = " ";
+                return false;
+            }
+
+        }
+    </script> -->
+
+    <script>
+        function validation() {
+            var phone = document.getElementById('phone').value;
+
+            if (phone.length != 10) {
+                document.getElementById('phone-error').innerHTML = "Please Enter 10 digits";
+                return false;
+            }
+            if (phone.length == 0) {
+                document.getElementById('phone-error').innerHTML = " ";
+                return false;
+            }
+            if (!phone.match(/^[0-9]{10}$/)) {
+                document.getElementById('phone-error').innerHTML = "Invalid Phone Number";
+                return false;
+            }
+            if (phone == ' ') {
+                document.getElementById('phone-error').innerHTML = " ";
+                return false;
+            }
+
+            document.getElementById('phone-error').innerHTML = " ";
+            return true;
+        }
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -225,7 +363,31 @@
     <script type="text/javascript">
         emailjs.init("DY6szdZmEiINBfCHM");
     </script>
-    
+
+    <!-- <script>
+        const form = document.getElementById("myForm");
+        const phoneInput = document.getElementById("phone");
+        const phoneError = document.getElementById("phone-error");
+
+        form.addEventListener("submit", function (event) {
+            let isValid = true;
+
+            // Clear previous error message
+            phoneError.textContent = "";
+
+            // Phone number validation
+            const phoneNumberPattern = /^\d{10}$/; // Matches a 10-digit number
+            if (!phoneNumberPattern.test(phoneInput.value)) {
+                isValid = false;
+                phoneError.textContent = "Invalid phone number. Please enter a 10-digit number.";
+            }
+
+            if (!isValid) {
+                event.preventDefault(); // Prevent form submission if there are errors
+            }
+        });
+    </script> -->
+
 </body>
 
 </html>

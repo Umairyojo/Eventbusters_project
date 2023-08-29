@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Urbanist&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Great+Vibes&family=Niconne&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Great+Vibes&family=Niconne&family=Urbanist&display=swap');
+
 
 /* body css  */
 body {
@@ -17,6 +19,13 @@ a {
     color: currentColor;
 }
 
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 /* header css */
 
 header {
@@ -308,7 +317,7 @@ header .container-fluid {
 .container{
     width: 100%;
     height: 100%;
-
+    font-family: 'Caveat Brush', cursive;
 }
 
 .container form{
@@ -406,4 +415,182 @@ form input{
 
 .container iframe{
     box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
 }
+
+.input-name #phone-error{
+    position: absolute;
+    right: 12px;
+    bottom: 0.6rem;
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+/* footer css */
+/* Style the footer */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style contact, social, and navigation sections */
+.footer-contact,
+.footer-social,
+.footer-nav {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-contact h3,
+.footer-social h3,
+.footer-nav h3 {
+    margin-bottom: 10px;
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* -------------------------------------------- */
+/* footer css */
+.container-fuild .row{
+    padding-top: 40px;
+    margin-top: 24px;
+    border-top: 1px solid black;
+    /* background-color: black; */
+    color: #FFF9F0;
+    position: relative;
+}
+
+footer{
+    width: 100%;
+}
+
+footer .socialicon h3{
+    margin-left: 3rem;
+}
+
+footer .socialicon{
+    padding: 0 70px;
+}
+
+footer .socialicon a{
+    text-decoration: none;
+    padding: 8px 10px;
+    padding-top: 14px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+footer .socialicon a i {
+    font-size: 1.6rem;
+    opacity: 0.9;
+}
+
+/* hover effect on socialicons */
+footer .socialicon a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+}
+
+footer .socialicon a:hover i{
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+    footer .socialicon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .contactfooter{
+        text-align: center;
+    }
+
+    footer .buss-name, .socialicon h3{
+        display: none;
+    }
+
+    footer .socialicon {
+        margin: 20px;
+    }
+
+    footer .contactfooter{
+        margin: 10px;
+    }
+}
+
+footer .copy-right p{
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    border-top: 1px solid #dfbc68;
+    width: 100%;
+}
+
+.query{
+    text-align: center;
+    margin: 14px;
+    padding: 24px;
+    background-color: #cccccc;
+}
+
+.query p{
+    margin: 1rem ;
+}
+
+@media (max-width: 1092px) {
+    header .navb-logo img{
+        font-size: 1.5rem !important;
+        margin-left: 0rem !important;
+    }
+
+    header .navb-logo h3{
+        font-weight: 300 !important;
+        font-size: 12px !important;
+    }
+}
+
+footer{
+    background-image: url('/img/blackfloral1.jpg');
+    background-size: cover;
+}
+
+/* footer .row{
+    --bs-gutter-x: 0px !important;
+} */
+
+/* footer end  */
+/* whyus css */
+.whyus .row{
+    font-family: 'Caveat Brush', cursive;
+    margin: 24px;
+    width: 100%;
+    background-color: #dfbc68;
+}
+

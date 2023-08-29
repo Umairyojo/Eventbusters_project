@@ -1,29 +1,3 @@
-// function sendMail() {
-//     var params = {
-//         fname: document.getElementById('fname').value,
-//         phone: document.getElementById('phone').value,
-//         email: document.getElementById('email').value,
-//         message: document.getElementById('message').value,
-//     };
-
-//     const serviceID = "service_gzqwp09";
-//     const templateID = "template_nf7ebou";
-
-//     emailjs.send(serviceID, templateID, params).then((res) => {
-//             document.getElementById('fname').value = "";
-//             document.getElementById('phone').value = "";
-//             document.getElementById('email').value = "";
-//             document.getElementById('message').value = "";
-//             console.log(res);
-//             alert("Your Message Sent to Admin Successfully!");
-//         }).catch((err) => console.log(err));
-
-// }
-
-
-// Initialize Email.js with your user ID
-
-
 // Function to send an email
 function sendEmail() {
     // Replace with your actual email service and template IDs
@@ -54,3 +28,27 @@ function sendEmail() {
             console.error("Failed to send email:", error);
         });
 }
+
+// # function to validate phone number
+// const phoneError = document.getElementById('phone-error');
+
+// function validatePhone() {
+//     var phone = document.getElementById('phone').value;
+//     console.log(phone);
+
+//     if (phone.length == 0) {
+//         document.querySelector("#phone-error").innerHTML = "Phone Number is Required";
+//         return false;
+//     }
+//     if (phone.length !== 10) {
+//         document.querySelector("#phone-error").innerHTML  = 'Enter ten Digits';
+//         // return false;
+//     }
+//     if (!phone.match(/^[0-9]{10}$/)) {
+//         document.querySelector("#phone-error").innerHTML  = 'Enter 10 Digits';
+//         // return false;
+//     }
+
+//     document.querySelector("#phone-error").innerHTML  = ' ';
+//     return true;
+// }
