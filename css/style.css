@@ -26,6 +26,7 @@ body,html{
     padding: 0px;
     overflow-x: hidden;
 }
+
 /* header css */
 
 header {
@@ -214,7 +215,7 @@ header .item-button:hover {
     padding: 0 0 3px 3px;
 }
 
-
+/* mobile view modal css */
 .mobile-modal-footer {
     width: 87%;
     margin: 0 auto;
@@ -251,6 +252,8 @@ header .container-fluid {
     background-image: url("../img/ribb.png");
     background-position: top;
 }
+
+/* header complete css */
 
 /* -------------------------------------------------------------- */
 /* .container {
@@ -315,8 +318,8 @@ header .container-fluid {
 
 /* form css */
 .container{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     font-family: 'Caveat Brush', cursive;
 }
 
@@ -555,9 +558,10 @@ footer .copy-right p{
 
 .query{
     text-align: center;
-    margin: 14px;
+    margin: 24px 14px 14px 14px;
     padding: 24px;
     background-color: #cccccc;
+    border-radius: 10px;
 }
 
 .query p{
@@ -586,11 +590,53 @@ footer{
 } */
 
 /* footer end  */
+
 /* whyus css */
-.whyus .row{
-    font-family: 'Caveat Brush', cursive;
-    margin: 24px;
-    width: 100%;
-    background-color: #dfbc68;
+#eb-whyus{
+    padding: 14px 0px 14px 0px !important;
 }
 
+.whyus .row{
+    font-family: 'Caveat Brush', cursive;
+    background-color: #dfbc68;
+    border-radius: 60px;
+}
+
+.whyus .years-exp svg, .years-exp span , .all-events span, svg, .availability svg, .availability span, .event-success i, .event-success span{
+    color: #0c3a89e7;
+    font-size: xx-large;
+}
+
+.whyus .years-exp svg{
+    margin-top: -10px;
+}
+
+.whyus .years-exp p, .all-events p, .availability p, .event-success p{
+    font-size: x-large;
+}
+
+.whyus .years-exp span, .availability span, .event-success span{
+    padding-left: 4px;
+}
+
+.whyus .availability svg{
+    margin-top: -10px;
+}
+
+.whyus .h-line{
+    margin-top: 6px;
+}
+
+.whyus .l-line{
+    margin-bottom: 6px;
+}
+
+@media (max-width:768px) {
+    .whyus .h-line{
+        padding: 10px 0px 4px 0px;
+    }
+
+    .whyus .l-line{
+        padding-bottom: 7px;
+    }
+}
