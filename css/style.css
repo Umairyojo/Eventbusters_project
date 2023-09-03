@@ -654,6 +654,7 @@ footer{
     display: flex;
     padding: 20px;
     background: linear-gradient(45deg, #4CAF50, #2196F3);
+    margin: 14px 0px 14px 0px;
 }
 
 .testimonial-container .headline{
