@@ -1,8 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Great+Vibes&family=Niconne&family=Urbanist&display=swap');
 
-
-/* body css  */
+/* body css */
 
 .title {
     /* font-style: normal; */
@@ -14,9 +12,10 @@ a {
     color: currentColor;
 }
 
-body,html{
+body,
+html {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -251,235 +250,8 @@ header .container-fluid {
 
 /* header css end */
 
-/* -------------------------------------------------------------- */
-/* .container {
-    width: 100%;
-    height: 100vh;
-    background-color: #FFF9F0;*/
-/* display: flex;
-    align-items: center;
-    justify-content: center; */
-/*
-} */
-/* 
-.swiper {
-    width: 900px;
-    height: 300px;
-}
-
-.swiper-slide img {
-    width: 100%;
-    margin-top: 2rem;
-    padding-right: 2rem;
-    margin-bottom: 3rem;
-} */
-
-/* .w-100 {
-    width: 80% !important;
-    height: 65vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
-
-/* .carousel,
-.carousel-inner {
-     height: 100vh;
-}
-
-.carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100vw;
-  height: 100vh;
-  max-width: none;
-} */
-
-/* .carousel-inner .carousel-item img {
-    margin-left: 15rem;
-}
-
-.carousel-item {
-    background-color: #dfbc68;
-    background-image: url('/img/Banner.gif');
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */ /*
-    backdrop-filter: blur(1.5);
-} */
-
-/* .container{
-    box-shadow: 6px 6px 6px ;
-} */
-
-/* contact and location ,form css */
-.cont-locat{
-    /* width: 100%;
-    height: 100%; */
-    font-family: 'Caveat Brush', cursive;
-}
-
-#eb-cont-loc .row{
-    border-radius: 40px;
-}
-
-.container form{
-    border: 2px solid black;
-    border-radius: 6px;
-    border-top: 5px solid green;
-    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
-}
-
-.input-name{
-    width: 90%;
-    position: relative;
-    margin: 20px auto;
-    border: none;
-}
-
-.lock{
-    padding: 4px 5px;
-}
-
-.name {
-    width: 45%;
-    padding: 8px 0 8px 40px;
-}
-
-.input-name span{
-    margin-left: 15px;
-}
-
-@media (min-width:1200px) {
-    .input-name span{
-        margin-left: 35px;
-    }
-}
-
-.text-name{
-    width: 100%;
-    padding: 8px 0 8px 40px;
-}
-
-.input-name i{
-    position: absolute;
-    font-size: 10x;
-    margin-left: 8px;
-    margin-top: 8px;
-    border-right: 1px solid #cccccc;
-}
-
-.input-name .name:hover , .input-name .text-name:hover{
-    box-shadow: 0 0 7px  rgba(0, 0, 0, 0.5);
-}
-
-/* .name .text-name{
-    border: ;
-} */
-
-/* form submit btn css */
-.submit-btn .btn{
-    width: 20%;    
-    margin: 0px auto 30px;
-    margin-top: 0px;
-    border-style: none;
-    background-color: green;
-    border-radius: 90px;
-    color: white;
-    font-weight: bolder;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-}
-
-.submit-btn{
-    text-align: center;
-}
-
-.submit-btn .btn:hover{
-    background-color: #dfbc68;
-    color: black;
-    font-weight: bolder;
-    transition: 0.5s ease;
-}
-
-form input{
-    outline: none;
-    border: 1px solid #cccccc;
-    -webkit-transition: all 0.30s ease-in-out;   
-    -moz-transition: all 0.30s ease-in-out;   
-    -ms-transition: all 0.30s ease-in-out;   
-    transition: all 0.30s ease-in-out;   
-}
-
-/* .text-name:hover, .name:hover{
-    background-color: #faf5f5;
-} */
-
-.container iframe{
-    box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 6px;
-}
-
-.input-name #phone-error{
-    position: absolute;
-    right: 12px;
-    bottom: 0.6rem;
-    font-size: 12px;
-    color: red;
-    font-weight: bold;
-}
-
-/* contact and location css end */
-
-/* footer css */
-/* Style the footer */
-.site-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 30px 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Style contact, social, and navigation sections */
-.footer-contact,
-.footer-social,
-.footer-nav {
-    flex: 1;
-    padding: 10px;
-}
-
-.footer-contact h3,
-.footer-social h3,
-.footer-nav h3 {
-    margin-bottom: 10px;
-}
-
-.footer-social ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
-
-.footer-social img {
-    width: 30px;
-    height: 30px;
-}
-
-
-/* -------------------------------------------- */
-/* footer css */
-.container-fuild .row{
+/* footer css start */
+footer .container-fuild .row{
     padding-top: 40px;
     margin-top: 24px;
     border-top: 1px solid black;
@@ -593,115 +365,150 @@ footer{
 
 /* footer end  */
 
-/* whyus css */
-#eb-whyus{
-    padding: 14px 0px 14px 0px !important;
+
+/* ------------------------- main content css ------------------------ */
+
+body{
+    background-image: url('/img/gold-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.whyus .row{
-    font-family: 'Caveat Brush', cursive;
-    background-color: #dfbc68;
-    border-radius: 60px;
+.about-content, .about-why{
+    font-family: 'caveat brush', cursive;
 }
 
-.whyus .years-exp svg, .years-exp span , .all-events span, svg, .availability svg, .availability span, .event-success i, .event-success span{
-    color: #0c3a89e7;
-    font-size: xx-large;
-}
-
-.whyus .years-exp svg{
-    margin-top: -10px;
-}
-
-.whyus .years-exp p, .all-events p, .availability p, .event-success p{
-    font-size: x-large;
-}
-
-.whyus .years-exp span, .availability span, .event-success span{
-    padding-left: 4px;
-}
-
-.whyus .availability svg{
-    margin-top: -10px;
-}
-
-.whyus .h-line{
-    margin-top: 6px;
-}
-
-.whyus .l-line{
-    margin-bottom: 6px;
-}
-
-@media (max-width:768px) {
-    .whyus .h-line{
-        padding: 10px 0px 4px 0px;
-    }
-
-    .whyus .l-line{
-        padding-bottom: 7px;
-    }
-}
-
-/* why us section css end */
-
-/* testimonial section css start */
-.testimonial-container {
-    display: flex;
-    padding: 20px;
-    background: linear-gradient(45deg, #4CAF50, #2196F3);
-    margin: 14px 0px 14px 0px;
-}
-
-.testimonial-container .headline{
-    font-family: 'Caveat Brush', cursive;
-}
-
-.images-three{
-    /* width: 100%; */
-    position: relative;
-    --bs-gutter-x: 0;
-    height: 20rem;
-    width: 20rem;
-    margin: 1rem;
-}
-
-.images-three img{
-    width: 100%;
-    display: block;
-    margin: auto;
-}
-
-.contains-rev{
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
+/* about css */
+.about-content .banner-img{
     justify-content: center;
+    display: flex;
+}
+
+.about-content img{
+    border-radius: 40px;
+    padding: 15px;
+    margin-top: 20px;    
+}
+
+.about-content .abt-txt{
+    padding: 22px;
+    margin: 20px;
+    border: 2px solid whitesmoke;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    border-radius: 20px;
+    box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.about-content .abt-txt h1{
+    font-size: 50px;
+    padding: 15px;
+}
+
+.about-content .abt-txt p{
+    font-size: 22px;
+    padding: 16px;
+}
+
+.about-main-section .about-why{
+    padding: 28px;
+}
+
+/* about why css */
+.about-why .why-content{
+    padding: 18px;
+}
+
+.about-why .collage-image{
+    display: flex;
     align-items: center;
-    flex-direction: column;
-    opacity: 1;
-    color: #ffe100;
-    font: large;
+    justify-content: center;
+}
+
+.about-why .collage-image img{
+    border-radius: 10px;
+    /* padding: 22px; */
+    z-index: 2;
+}
+
+#eb-about-why{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.container .about-why h1{
+    font-size: 50px;
+    padding: 15px;
+}
+
+.container .about-why p{
+    font-size: 19px;
     padding: 8px;
 }
 
+.container .about-why{
+    justify-content: space-around;
+    border: 2px solid black;
+    z-index: 2;
+    /* background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    border-radius: 20px; */
+    box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.3);
+    color: whitesmoke;
+}
 
+#eb-about-why::before{
+    content: '';
+    position: absolute;
+    width: 2370px;
+    margin-left: 4rem;
+    height:1000%;
+    background: linear-gradient(#00ccff, #d500f9);
+    animation: rotate 4s linear infinite;
+    /* overflow: unset; */
+    /* z-index: 0; */
+}
 
+#eb-about-why::after{
+    content: '';
+    position: absolute;
+    background: #525252;
+    inset: 5px;
+}
 
+@keyframes rotate {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 
+/* about contact css */
+#eb-about-contact{
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    padding: 28px;
+    background-color: black;
+}
 
+.about-contact{
+    justify-content: space-around;
+    color: gold;
+}
 
+.about-contact .about-cnt-us{
+    line-height: 30px;
+}
 
+.about-contact .about-data {
+    padding: 22px;
+    line-height: 30px;
+}
 
+.about-contact .about-data a{
+    color: deepskyblue;
+    text-decoration: underline;
+}
 
-
-
-
-
-
-
-/* testimonial section css end */
+/* contact css end */
