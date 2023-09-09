@@ -645,6 +645,83 @@ footer{
 
 /* why us section css end */
 
+/* gallery css start */
+
+.event-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.event-gallery .gal-head{
+    padding: 15px;
+    margin: 15px;
+}
+
+.event-gallery .gal-head h3{
+    font-size: 2em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+}
+
+.event-gallery .gal-head h3 span{
+    font-weight: 100;
+    color: green;
+}
+
+.event-gallery .body-gal-imgs img{
+    width: 100%;
+    height: auto;
+
+}
+
+.body-gal-imgs{
+    display: flex;
+    
+}
+
+.event-gallery .gal-btn{
+    background-color: #dfbc68;
+    padding: 10px 25px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #222;
+}
+
+#pck-img{
+    padding: 0px;
+}
+
+.body-gal-imgs .col img{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* gallery css end */
+
 /* testimonial section css start */
 .testimonial-container {
     display: flex;
@@ -688,20 +765,5 @@ footer{
     font: large;
     padding: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* testimonial section css end */
