@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Great+Vibes&family=Niconne&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@500&family=Great+Vibes&family=Niconne&family=Poppins:wght@700&family=Urbanist&display=swap');
 
 
 /* body css  */
@@ -643,7 +644,7 @@ footer{
     }
 }
 
-/* why us section css end */
+/* why us section css end -------------------------------------*/
 
 /* gallery css start */
 
@@ -678,49 +679,69 @@ footer{
 }
 
 .body-gal-imgs{
-    display: flex;
-    
+    display: flex;    
 }
 
 .event-gallery .gal-btn{
-    background-color: #dfbc68;
+    background-color: green;
+    color: whitesmoke;
     padding: 10px 25px;
     margin-bottom: 18px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
     border: 2px solid #222;
+    transition: all .3s ease;
+}
+
+.event-gallery .gal-btn:hover{
+    background-color: #dfbc68;
+    color: black;
 }
 
 #pck-img{
     padding: 0px;
+    position: relative;
 }
 
 .body-gal-imgs .col img{
     padding: 5px;
 }
 
+.img-text{
+    position: relative;
+}
 
+#pck-img .content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: .5s;
+}
 
+#pck-img .content:hover{
+    opacity: 1;
+}
 
+.img-text .content h1{
+    font-size: 30px;
+}
 
+.event-gallery .body-gal-imgs, .gal-btn{
+    font-family: 'Caveat Brush', cursive;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* gallery css end */
+/* gallery css end --------------------------------------------------*/
 
 /* testimonial section css start */
 .testimonial-container {
@@ -766,4 +787,4 @@ footer{
     padding: 8px;
 }
 
-/* testimonial section css end */
+/* testimonial section css end -------------------------------------*/
