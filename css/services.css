@@ -369,65 +369,85 @@ footer {
 
 /* footer end  */
 
-/* ----------------------gallery main content css start------------------------------- */
+/* main section css */
+main *{
+    /* border: 1px solid black; */
+}
+
 body{
-    /* background-image: url('');
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: #fdf497;
-    /* background-color: #F3DCA9;
-    background-color: #dfbc68; */
 }
 
-main{
-    font-family: 'Caveat Brush', cursive;
-
+#eb-bday-serve{
+    font-family: 'caveat brush', cursive;
 }
 
-.gal-page-header{
-    margin: 28px;
+#eb-bday-serve .bday-serve-head{
+    margin: 18px;
 }
 
-.gal-page-section img{
-    width: 100%;
-    height: auto;
-    padding: 5px;
-}
-
-.gal-page-section{
-    display: flex;
-}
-
-#gal-col-img{
-    padding: 0px;
-    position: relative;
-}
-
-.img-text{
-    position: relative;
-}
-
-#gal-col-img .content{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    color: whitesmoke;
-    display: flex;
+.bd-card1{
     justify-content: center;
-    align-items: center;
+    padding: 10px;
+    border: 9px solid;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px black;
+    background-color: #F3DCA9;
+    margin: 0px 8rem;    
+}
+
+#eb-bday-serve .cont-title{
     padding: 5px;
-    cursor: pointer;
-    opacity: 0;
-    transition: .5s;
 }
 
-#gal-col-img .content:hover{
-    opacity: 1;
+#eb-bday-serve .cont-image{
+    text-align: center;
+    padding: 10px;
 }
 
-.img-text .content h1{
-    font-size: 30px;
+#eb-bday-serve .cont-image img{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#eb-bday-serve .content-txt{
+    padding: 10px;
+    font-size: larger;
+}
+
+#eb-bday-serve .serve-btn{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#eb-bday-serve .serve-btn button{
+    border: 3px solid darkgoldenrod;
+    border-radius: 10px;
+    padding: 6px 1rem;
+    font-size: x-large;
+    color: darkgoldenrod;
+    background-color: #F3DCA9;
+    transition: all .4s ease;
+}
+
+#eb-bday-serve .serve-btn button:hover{
+    background-color: rgb(168, 12, 189);
+    color: black;
+    border: 2px solid darkgoldenrod;
+}
+
+@media (max-width: 848px) {
+    #eb-bday-serve .serve-btn button{
+        font-size: large;
+    }
+}
+
+@media (max-width: 768px) {
+    #eb-bday-serve .cont-title h3{
+        font-size: larger;
+    }
+
+    #eb-bday-serve .content-txt{
+        width: 80%;
+    }
 }

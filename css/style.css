@@ -250,6 +250,54 @@ header .container-fluid {
     background-position: top;
 }
 
+
+
+#eb-navbar .submenu-1{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    float: left;
+    background-color: #F3DCA9;
+    right: 11.7rem;
+    top: 8.2rem;
+    text-align: left;
+    padding: 12px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+#serve:hover .submenu-1{
+    display: block;
+}
+
+#eb-navbar .submenu-1 .row{
+    padding: 5px;
+    line-height: 2.1;
+    font-size: 15px;
+    width: 28rem;
+    margin-bottom: -16px;
+}
+
+#eb-navbar .submenu-1 ul{
+    list-style: none;
+    padding: 0;
+}
+
+#eb-navbar .submenu-1 ul li{
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+#eb-navbar .submenu-1 ul li:hover{
+    background-color: #dfbc68;
+    border-radius: 10px;
+}
+
+/* 
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+} */
 /* header css end */
 
 /* -------------------------------------------------------------- */
@@ -431,7 +479,7 @@ form input{
     font-weight: bold;
 }
 
-/* contact and location css end */
+/* contact and location css end -------------------------------------------------------*/
 
 /* footer css */
 /* Style the footer */
@@ -592,7 +640,7 @@ footer{
     --bs-gutter-x: 0px !important;
 } */
 
-/* footer end  */
+/* footer end  ---------------------------------------------------*/
 
 /* whyus css */
 #eb-whyus{
@@ -646,7 +694,7 @@ footer{
 
 /* why us section css end -------------------------------------*/
 
-/* gallery css start */
+/* gallery css start -------------------------------------------*/
 
 .event-gallery{
     display: flex;
@@ -788,3 +836,91 @@ footer{
 }
 
 /* testimonial section css end -------------------------------------*/
+
+/* Services css start--------------------------------------------- */
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 28px;
+    background-color: #fdf497;
+    font-family: 'Caveat Brush', cursive;
+    transition: all .5s ease;
+}
+
+.card-container .card{
+    width: 225px;
+    background-color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    margin-bottom: auto;
+    text-align: center;
+    transition: all .5s ease;
+    cursor: pointer !important;
+}
+
+.card-container .card:hover {
+    transform: scale(1.03);
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all .3s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.1);
+}
+
+.card-container img{
+    width: 100%;
+    height: 170;
+}
+
+.card-container .card h5{
+    margin-top: 5px;
+    color: white;
+}
+
+.serve-head{
+    display: block;
+    margin: 14px;
+    padding-top: 12px;
+    font-family: 'Caveat Brush', cursive;
+
+}
+
+/* services section css end */
+/* other services css start */
+.ot-serve-head{
+    display: block;
+    margin: 14px;
+    padding-top: 12px;
+    font-family: 'Caveat Brush', cursive;
+}
+/* other services css end */
+
+
+/* .service-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-container .serve-img{
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.service-container .serve-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 3px solid black;
+} */
