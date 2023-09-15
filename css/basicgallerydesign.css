@@ -1,3 +1,7 @@
+/* used in wedding */
+/* used in engagement  */
+/* used in house-warming  */
+
 .event-gallery{
     display: flex;
     flex-direction: column;
@@ -61,9 +65,9 @@
     transition: .5s;
 }
 
-#pck-img .content:hover{
-    /* opacity: 1; */
-}
+/* #pck-img .content:hover{
+    opacity: 1;
+} */
 
 .img-text .content h1{
     font-size: 30px;
