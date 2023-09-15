@@ -171,6 +171,7 @@ header .item-button:hover {
     font-weight: 800;
     margin-top: 1rem;
 }
+
 .modal-header .btn-close {
     background: transparent;
     opacity: 1;
@@ -379,45 +380,168 @@ footer {
 
 /* footer end  */
 
-/* ----------------------gallery main content css start------------------------------- */
+/* main section css */
+main *{
+    /* border: 1px solid black; */
+}
+
+/* cards section css */
+
 body{
-    /* background-image: url('');
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: #fdf497;
-    /* background-color: #F3DCA9;
-    background-color: #dfbc68; */
 }
 
-main{
-    font-family: 'Caveat Brush', cursive;
-
+#eb-bday-serve{
+    font-family: 'caveat brush', cursive;
 }
 
-.gal-page-header{
-    margin: 28px;
+#eb-bday-serve .bday-serve-head{
+    margin: 18px;
 }
 
-.gal-page-section img{
-    width: 100%;
-    height: auto;
+.bd-card1{
+    justify-content: center;
+    padding: 10px;
+    border: 9px solid;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px black;
+    background-color: #F3DCA9;
+    margin: 0px 8rem;  
+    margin-top: 2rem;  
+}
+
+#eb-bday-serve .cont-title{
     padding: 5px;
 }
 
-.gal-page-section{
-    display: flex;
+#eb-bday-serve .cont-image{
+    text-align: center;
+    padding: 10px;
 }
 
-#gal-col-img{
+#eb-bday-serve .cont-image img{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#eb-bday-serve .content-txt{
+    padding: 10px;
+    font-size: larger;
+}
+
+#eb-bday-serve .serve-btn{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#eb-bday-serve .serve-btn a, .enquire-section .txt-content a{
+    border: 3px solid darkgoldenrod;
+    border-radius: 10px;
+    padding: 6px 1rem;
+    font-size: x-large;
+    color: darkgoldenrod;
+    background-color: #F3DCA9;
+    transition: all .4s ease;
+}
+
+#eb-bday-serve .serve-btn a:hover, .enquire-section .txt-content a:hover{
+    background-color: rgb(168, 12, 189);
+    color: black;
+    border: 2px solid darkgoldenrod;
+}
+
+@media (max-width: 848px) {
+    #eb-bday-serve .serve-btn a{
+        font-size: large;
+    }
+}
+
+@media (max-width: 768px) {
+    #eb-bday-serve .cont-title h3{
+        font-size: larger;
+    }
+
+    #eb-bday-serve .content-txt{
+        width: 80%;
+    }
+}
+
+/* cards section css end */
+
+/* enquire css */
+.enquire-section{
+    border: 2px solid;
+    margin-top: 3rem;
+    border-radius: 10px;
+    border: 6px solid black;
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+}
+
+.enquire-section .txt-content{
+    line-height: 36px;
+    padding: 5px;
+}
+
+.enquire-section .txt-content h2, .enquire-section .txt-content a{
+    padding: 5px;
+    font-family: 'caveat brush', cursive;
+}
+
+.enquire-section .txt-content a{
+    color: black;
+}
+/* enquire css end */
+
+/* bday gallery css start ----------------------------------------------------------  */
+
+.event-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.event-gallery .gal-head{
+    padding: 15px;
+    margin: 15px;
+}
+
+.event-gallery .gal-head h3{
+    font-size: 2em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+}
+
+.event-gallery .gal-head h3 span{
+    font-weight: 100;
+    color: green;
+}
+
+.event-gallery .body-gal-imgs img{
+    width: 100%;
+    height: 170;
+}
+
+.body-gal-imgs{
+    display: flex;    
+}
+
+#pck-img{
     padding: 0px;
     position: relative;
+}
+
+.body-gal-imgs .col img{
+    padding: 5px;
 }
 
 .img-text{
     position: relative;
 }
 
-#gal-col-img .content{
+#pck-img .content{
     width: 100%;
     height: 100%;
     top: 0;
@@ -434,10 +558,16 @@ main{
     transition: .5s;
 }
 
-#gal-col-img .content:hover{
-    opacity: 1;
+#pck-img .content:hover{
+    /* opacity: 1; */
 }
 
 .img-text .content h1{
     font-size: 30px;
 }
+
+.event-gallery .body-gal-imgs, .gal-btn{
+    font-family: 'Caveat Brush', cursive;
+}
+
+/* gallery css end --------------------------------------------------*/

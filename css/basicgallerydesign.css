@@ -1,0 +1,76 @@
+.event-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.event-gallery .gal-head{
+    padding: 15px;
+    margin: 15px;
+}
+
+.event-gallery .gal-head h3{
+    font-size: 2em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+}
+
+.event-gallery .gal-head h3 span{
+    font-weight: 100;
+    color: green;
+}
+
+.event-gallery .body-gal-imgs img{
+    width: 100%;
+    height: 170;
+}
+
+.body-gal-imgs{
+    display: flex;    
+}
+
+#pck-img{
+    padding: 0px;
+    position: relative;
+}
+
+.body-gal-imgs .col img{
+    padding: 5px;
+}
+
+.img-text{
+    position: relative;
+}
+
+#pck-img .content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: .5s;
+}
+
+#pck-img .content:hover{
+    /* opacity: 1; */
+}
+
+.img-text .content h1{
+    font-size: 30px;
+}
+
+.event-gallery .body-gal-imgs, .gal-btn{
+    font-family: 'Caveat Brush', cursive;
+}
+
+/* gallery css end --------------------------------------------------*/
