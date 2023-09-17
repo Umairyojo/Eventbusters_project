@@ -1,0 +1,73 @@
+
+.kids-room{
+    background-image: url('/img/ribb.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    background-color: rgb(170, 96, 239);
+}
+
+/* buss card css */
+.kids-container{
+    font-family: 'caveat brush', cursive;
+}
+
+.kid-content{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.kid-box{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: black;
+    color: ghostwhite;
+    width: 360px;
+    margin: 1rem;
+}
+
+.kid-box .kids-img-txt{
+    padding: 5px;
+}
+
+.kid-box img{
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.kids-img-txt .cost{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.kids-img-txt .cost{
+    text-align: left;
+}
+
+.kids-img-txt .cost h6{
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.kids-img-txt .cost .kid-btn{
+    display: flex;
+    align-items: center;
+}
+
+.kids-img-txt .cost .kid-btn a{
+    /* display: flex;
+    align-items: center; */
+    padding: 5px;
+    margin: 5px;
+    border: 1.3px solid whitesmoke;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.kids-img-txt .cost a:hover{
+    border: 0.9px solid whitesmoke;
+    background-color: darkviolet;
+}
+
