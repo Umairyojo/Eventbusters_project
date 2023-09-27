@@ -1,0 +1,36 @@
+.dj_music{
+    background-image: url('/img/Services/DJ-music/dj1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);
+}
+
+.spcl-cont{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 3rem;
+    background-color: gold;
+    font-family: 'caveat brush', cursive;
+}
+
+.spcl-cont p{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.spcl-btn{
+    border: 2px solid;
+    padding: 5px 10px;
+    width: auto;
+    margin: auto auto;
+    border-radius: 10px;
+    background-color: burlywood;
+    transition: all .3s ease;
+}
+
+.spcl-btn:hover{
+    background-color: blueviolet;
+    color: white;
+}

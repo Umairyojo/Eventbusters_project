@@ -109,7 +109,7 @@ header .item-button {
     display: inline;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 600;
     color: currentColor;
     transition: all .5s ease;

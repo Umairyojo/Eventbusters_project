@@ -1,0 +1,6 @@
+.ph-vid{
+    background-image: url('/img/Services/photography-video/photo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);
+}
