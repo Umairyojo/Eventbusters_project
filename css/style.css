@@ -395,6 +395,16 @@ header .container-fluid {
     font-family: 'Caveat Brush', cursive;
 }
 
+.more-info{
+    font-size: 30px;
+    font-weight: bolder;
+    border: 2px solid;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
 #eb-cont-loc .row{
     border-radius: 40px;
 }
