@@ -1,8 +1,8 @@
 // Function to send an email
 function sendEmail() {
     // Replace with your actual email service and template IDs
-    const serviceID = "service_gzqwp09";
-    const templateID = "template_sghkieu";
+    const serviceID = "service_4tgihog";
+    const templateID = "template_99yqqp5";
 
     // Get user input from the HTML form
     const fname = document.getElementById("fname").value;
