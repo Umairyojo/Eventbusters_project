@@ -319,7 +319,33 @@ header .container-fluid {
 
 /* submenu navbar css end -------------------------------- */
 
+#carousel-1{
+    background-image: url('/img/gallery/wed5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
 
+#carousel-2{
+    background-image: url('/img/gallery/wed5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+
+#carousel-3{
+    /* background-image: url('/img/Offer-banr.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
 /* 
 .menu ul li {
     display: inline;
