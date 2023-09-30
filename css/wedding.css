@@ -90,3 +90,14 @@ body{
 /* .txt-content a:hover{
     background-color: rgba(0, 0, 0, 0.2);
 } */
+
+/* spcl css mob view  */
+@media (max-width: 468px) {
+    #eb-wed-section .wedd-row .img-txt .cost a{
+        font-size: small;
+    }
+
+    #eb-wed-section .wedd-row .line-1{
+        padding: 30px 3rem;
+    }
+}

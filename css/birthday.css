@@ -571,3 +571,11 @@ body{
 }
 
 /* gallery css end --------------------------------------------------*/
+
+/* spcl css mob view  */
+@media (max-width: 628px) {
+    .bd-card1{
+        margin: 0px 10%;
+        margin-top: 2rem;
+    }
+}
