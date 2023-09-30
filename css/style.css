@@ -319,33 +319,13 @@ header .container-fluid {
 
 /* submenu navbar css end -------------------------------- */
 
-#carousel-1{
-    background-image: url('/img/gallery/wed5.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.9);
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
-}
+/* carousel styling  */
 
-#carousel-2{
-    background-image: url('/img/gallery/wed5.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.9);
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
-}
 
-#carousel-3{
-    /* background-image: url('/img/Offer-banr.png'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: center; */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
-}
+
+/* carousel styling end-------------------------------- */
+
+
 /* 
 .menu ul li {
     display: inline;
@@ -1068,3 +1048,28 @@ footer{
     border-radius: 10px;
     border: 3px solid black;
 } */
+
+
+/* special css mob view  */
+
+@media (max-width:425px) {
+    #navbModal .modal-header h2{
+        font-size: medium;
+    }
+
+    .container-fluid .navb-logo h2{
+        font-size: 28px;
+    }
+
+    /* .carousel-inner .carousel-item img{
+        height: 30% !important;
+        width: 100% !important;
+        color: red;
+    } */
+}
+
+@media (min-width:762px) {
+    .carousel-inner .carousel-item img{
+        height: 90vh;
+    }
+}
