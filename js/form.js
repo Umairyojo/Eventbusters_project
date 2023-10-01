@@ -29,6 +29,10 @@ function sendEmail() {
         });
 }
 
+// ----------------------------PRELOADER----------------------------------------------
+
+
+
 // # function to validate phone number
 // const phoneError = document.getElementById('phone-error');
 
