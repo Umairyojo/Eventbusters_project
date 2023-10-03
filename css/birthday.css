@@ -594,3 +594,15 @@ body{
         height: 250px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .event-gallery .body-gal-imgs img{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .event-gallery .body-gal-imgs img{
+        height: 200px;
+    }
+}
