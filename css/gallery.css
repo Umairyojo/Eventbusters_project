@@ -3,7 +3,6 @@
 /* body css */
 
 .title {
-    /* font-style: normal; */
     font-family: 'Great Vibes', cursive;
 }
 
@@ -281,7 +280,6 @@ footer .container-fuild .row {
     padding-top: 40px;
     margin-top: 24px;
     border-top: 1px solid black;
-    /* background-color: black; */
     color: #FFF9F0;
     position: relative;
 }
@@ -314,7 +312,7 @@ footer .socialicon a i {
     opacity: 0.9;
 }
 
-/* hover effect on socialicons */
+/* hover effect on socialicons **********/
 footer .socialicon a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     transition: 0.5s;
@@ -384,7 +382,6 @@ footer .copy-right p {
 }
 
 footer {
-    /* background-image: url('/img/blackfloral1.jpg'); */
     background-color: black;
     background-size: cover;
 }
@@ -397,12 +394,8 @@ footer {
 
 /* ----------------------gallery main content css start------------------------------- */
 body{
-    /* background-image: url('');
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: #fdf497;
-    /* background-color: #F3DCA9;
-    background-color: #dfbc68; */
+    
 }
 
 main{

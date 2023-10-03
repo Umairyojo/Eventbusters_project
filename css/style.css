@@ -6,7 +6,6 @@
 /* body css  */
 
 .title {
-    /* font-style: normal; */
     font-family: 'Great Vibes', cursive;
 }
 
@@ -334,85 +333,16 @@ header .container-fluid {
 
 /* submenu navbar css end -------------------------------- */
 
-/* carousel styling  */
 
 
+/* carousel styling start-----------------------------*/
 
 /* carousel styling end-------------------------------- */
 
 
-/* 
-.menu ul li {
-    display: inline;
-    margin-right: 20px;
-} */
-/* header css end */
-
-/* -------------------------------------------------------------- */
-/* .container {
-    width: 100%;
-    height: 100vh;
-    background-color: #FFF9F0;*/
-/* display: flex;
-    align-items: center;
-    justify-content: center; */
-/*
-} */
-/* 
-.swiper {
-    width: 900px;
-    height: 300px;
-}
-
-.swiper-slide img {
-    width: 100%;
-    margin-top: 2rem;
-    padding-right: 2rem;
-    margin-bottom: 3rem;
-} */
-
-/* .w-100 {
-    width: 80% !important;
-    height: 65vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  } */
-
-/* .carousel,
-.carousel-inner {
-     height: 100vh;
-}
-
-.carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100vw;
-  height: 100vh;
-  max-width: none;
-} */
-
-/* .carousel-inner .carousel-item img {
-    margin-left: 15rem;
-}
-
-.carousel-item {
-    background-color: #dfbc68;
-    background-image: url('/img/Banner.gif');
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */ /*
-    backdrop-filter: blur(1.5);
-} */
-
-/* .container{
-    box-shadow: 6px 6px 6px ;
-} */
 
 /* contact and location ,form css */
 .cont-locat{
-    /* width: 100%;
-    height: 100%; */
     font-family: 'Caveat Brush', cursive;
 }
 
@@ -480,10 +410,6 @@ header .container-fluid {
     box-shadow: 0 0 7px  rgba(0, 0, 0, 0.5);
 }
 
-/* .name .text-name{
-    border: ;
-} */
-
 /* form submit btn css */
 .submit-btn .btn{
     width: 20%;    
@@ -518,10 +444,6 @@ form input{
     -ms-transition: all 0.30s ease-in-out;   
     transition: all 0.30s ease-in-out;   
 }
-
-/* .text-name:hover, .name:hover{
-    background-color: #faf5f5;
-} */
 
 .container iframe{
     box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.5);
@@ -598,7 +520,6 @@ form input{
     padding-top: 40px;
     margin-top: 24px;
     border-top: 1px solid black;
-    /* background-color: black; */
     color: #FFF9F0;
     position: relative;
 }
@@ -963,6 +884,7 @@ footer{
     align-items: center;
     padding: 10px;
 }
+
 .vid-gallery *{
     /* border: 2px solid; */
 }
@@ -981,7 +903,6 @@ footer{
 }
 
 .images-three{
-    /* width: 100%; */
     position: relative;
     --bs-gutter-x: 0;
     height: 20rem;
@@ -1087,26 +1008,6 @@ footer{
 /* other services css end */
 
 
-/* .service-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.service-container .serve-img{
-    border-radius: 10px;
-    border: 3px solid black;
-}
-
-.service-container .serve-img img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    border: 3px solid black;
-} */
-
-
 /* special css mob view  */
 
 @media (max-width:468px) {
@@ -1117,12 +1018,6 @@ footer{
     .container-fluid .navb-logo h2{
         font-size: 20px;
     }
-
-    /* .carousel-inner .carousel-item img{
-        height: 30% !important;
-        width: 100% !important;
-        color: red;
-    } */
 }
 
 @media (min-width:762px) {

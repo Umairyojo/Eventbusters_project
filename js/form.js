@@ -28,31 +28,3 @@ function sendEmail() {
             console.error("Failed to send email:", error);
         });
 }
-
-// ----------------------------PRELOADER----------------------------------------------
-
-
-
-// # function to validate phone number
-// const phoneError = document.getElementById('phone-error');
-
-// function validatePhone() {
-//     var phone = document.getElementById('phone').value;
-//     console.log(phone);
-
-//     if (phone.length == 0) {
-//         document.querySelector("#phone-error").innerHTML = "Phone Number is Required";
-//         return false;
-//     }
-//     if (phone.length !== 10) {
-//         document.querySelector("#phone-error").innerHTML  = 'Enter ten Digits';
-//         // return false;
-//     }
-//     if (!phone.match(/^[0-9]{10}$/)) {
-//         document.querySelector("#phone-error").innerHTML  = 'Enter 10 Digits';
-//         // return false;
-//     }
-
-//     document.querySelector("#phone-error").innerHTML  = ' ';
-//     return true;
-// }

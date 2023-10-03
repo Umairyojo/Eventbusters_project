@@ -3,7 +3,6 @@
 /* body css */
 
 .title {
-    /* font-style: normal; */
     font-family: 'Great Vibes', cursive;
 }
 
@@ -272,7 +271,6 @@ footer .container-fuild .row {
     padding-top: 40px;
     margin-top: 24px;
     border-top: 1px solid black;
-    /* background-color: black; */
     color: #FFF9F0;
     position: relative;
 }
@@ -375,7 +373,6 @@ footer .copy-right p {
 }
 
 footer {
-    /* background-image: url('/img/blackfloral1.jpg'); */
     background-color: black;
     background-size: cover;
 }

@@ -3,7 +3,6 @@
 /* body css */
 
 .title {
-    /* font-style: normal; */
     font-family: 'Great Vibes', cursive;
 }
 
@@ -271,7 +270,6 @@ footer .container-fuild .row {
     padding-top: 40px;
     margin-top: 24px;
     border-top: 1px solid black;
-    /* background-color: black; */
     color: #FFF9F0;
     position: relative;
 }
@@ -383,7 +381,7 @@ footer {
     --bs-gutter-x: 0px !important;
 } */
 
-/* footer end  */
+/* footer end ------------------------------------------*/
 
 /* wedding gallery section  */
 /* bday gallery css start ----------------------------------------------------------  */

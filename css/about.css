@@ -3,7 +3,6 @@
 /* body css */
 
 .title {
-    /* font-style: normal; */
     font-family: 'Great Vibes', cursive;
 }
 
@@ -22,7 +21,7 @@ html {
     font-family: 'Urbanist', sans-serif;
 }
 
-/* header css */
+/* header css start----------------------------- */
 
 header {
     height: 150px;
@@ -444,7 +443,6 @@ body{
 
 .about-why .collage-image img{
     border-radius: 10px;
-    /* padding: 22px; */
     z-index: 2;
 }
 
@@ -482,8 +480,7 @@ body{
     height:1000%;
     background: linear-gradient(#00ccff, #d500f9);
     animation: rotate 4s linear infinite;
-    /* overflow: unset; */
-    /* z-index: 0; */
+
 }
 
 #eb-about-why::after{
