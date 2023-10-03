@@ -412,6 +412,7 @@ body{
 
 #eb-bday-serve .cont-title{
     padding: 5px;
+    text-align: center;
 }
 
 #eb-bday-serve .cont-image{
@@ -463,7 +464,12 @@ body{
 
     #eb-bday-serve .content-txt{
         width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+
 }
 
 /* cards section css end */
@@ -575,7 +581,16 @@ body{
 /* spcl css mob view  */
 @media (max-width: 628px) {
     .bd-card1{
-        margin: 0px 10%;
+        margin: 0px 5%;
         margin-top: 2rem;
+        line-height: 20px;
+    }
+
+    #eb-bday-serve .cont-image{
+        padding: 0px;
+    }
+
+    #eb-bday-serve .cont-image img{
+        height: 250px;
     }
 }

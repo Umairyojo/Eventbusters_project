@@ -743,13 +743,37 @@ footer{
 }
 
 @media (max-width:768px) {
+
+    .row.whyus-content{
+        width: 80%;
+    }
+
+    .whyus{
+        display: flex;
+        justify-content: center;
+    }
+
     .whyus .h-line{
         padding: 10px 0px 4px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .whyus .h-line h1{
+        border-bottom: 3px solid;
     }
 
     .whyus .l-line{
-        padding-bottom: 7px;
+        padding-top: 7px;
+
     }
+
+    .row.text-center .ads{
+        border-bottom: 4px solid;
+        border-radius: 28%;
+        padding: 8px;
+    }
+
 }
 
 /* why us section css end -------------------------------------*/
@@ -846,6 +870,12 @@ footer{
 
 .event-gallery .body-gal-imgs, .gal-btn{
     font-family: 'Caveat Brush', cursive;
+}
+
+@media screen and (max-width: 668px) {
+    .img-text .content h1{
+        font-size: 15px;
+    }
 }
 
 /* gallery css end --------------------------------------------------*/
