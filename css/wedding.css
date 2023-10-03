@@ -101,3 +101,15 @@ body{
         padding: 30px 3rem;
     }
 }
+
+@media (max-width: 768px) {
+    #eb-wed-section .wedd-row .line-1{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .second{
+        margin-top: 3rem;
+    }
+}
