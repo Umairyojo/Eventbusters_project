@@ -787,9 +787,9 @@ footer{
     transition: .5s;
 }
 
-#pck-img .content:hover{
+/* #pck-img .content:hover{
     opacity: 1;
-}
+} */
 
 .img-text .content h1{
     font-size: 30px;
