@@ -139,7 +139,13 @@ header .item-button:hover {
 
 @media (max-width: 768px) {
     header .navb-logo .title {
-        font-size: 2rem;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 448px) {
+    header .navb-logo .title {
+        font-size: 22px;
     }
 }
 
