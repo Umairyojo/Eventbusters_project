@@ -145,7 +145,7 @@ header .item-button:hover {
 
 @media (max-width: 448px) {
     header .navb-logo .title {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
@@ -1109,13 +1109,13 @@ footer{
 
 /* special css mob view  */
 
-@media (max-width:425px) {
+@media (max-width:468px) {
     #navbModal .modal-header h2{
         font-size: medium;
     }
 
     .container-fluid .navb-logo h2{
-        font-size: 28px;
+        font-size: 20px;
     }
 
     /* .carousel-inner .carousel-item img{
