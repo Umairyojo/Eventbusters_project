@@ -443,12 +443,13 @@ main{
     transition: .5s;
 }
 
-/* #gal-col-img .content:hover{
+#gal-col-img .content:hover{
     opacity: 1;
-} */
+}
 
 .img-text .content h1{
     font-size: 30px;
+    text-align: center;
 }
 
 @media screen and (max-width: 668px) {
