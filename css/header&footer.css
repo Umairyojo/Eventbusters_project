@@ -469,7 +469,11 @@ footer {
 
 @media screen and (max-width: 468px) {
     .event-gallery .body-gal-imgs img{
-        height: 200px;
+        height: 140px;
+    }
+
+    .event-gallery .gal-btn{
+        padding: 2px 10px;
     }
 }
 /* gallery css end --------------------------------------------------*/
