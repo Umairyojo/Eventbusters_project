@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/modal_pop_up.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -286,7 +287,17 @@
 
             </div>
         </div>
+
+        <!-- modal popup -->
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img id="modalImage" class="modal-content" src="" alt="">
+            <div id="modalCaption" class="caption"></div>
+
+        </div>
+
     </main>
+
     <!-- gallery section end -->
 
     <!-- footer start -->
@@ -337,6 +348,8 @@
             preloader.style.display = 'none';
         }
     </script>
+
+    <script src="/js/modal_pop_up.js"></script>
 
 </body>
 
