@@ -456,49 +456,49 @@
                 <div class="col" id="pck-img">
 
                     <div class="img-text">
-                        <img src="img/Services/festivals/Ganesha-festiv-1.jpeg" alt="gallery">
+                        <img src="img/Services/festivals/Ganesha-festiv-1.jpeg" alt="Ganesha Fest💐">
                         <div class="content">
                             <h1>Ganesha Fest💐</h1>
                         </div>
                     </div>
 
                     <div class="img-text">
-                        <img src="img/gallery/baby-shower.jpeg" alt="gallery">
+                        <img src="img/gallery/baby-shower.jpeg" alt="Birthday Party🎉">
                         <div class="content">
                             <h1>Birthday Party🎉</h1>
                         </div>
                     </div>
 
                     <div class="img-text">
-                        <img src="img/Services/baby-shower/baby-shower15.jpeg" alt="gallery">
+                        <img src="img/Services/baby-shower/baby-shower15.jpeg" alt="Baby Shower🍼">
                         <div class="content">
                             <h1>Baby Shower🍼</h1>
                         </div>
                     </div>
 
                     <div class="img-text">
-                        <img src="img/gallery/bday1.jpeg" alt="gallery">
+                        <img src="img/gallery/bday1.jpeg" alt="Birthday Party🎉">
                         <div class="content">
                             <h1>Birthday Party🎉</h1>
                         </div>
                     </div>
 
                     <div class="img-text">
-                        <img src="img/Services/Birthdays/basic_ball_decor7.jpeg" alt="gallery">
+                        <img src="img/Services/Birthdays/basic_ball_decor7.jpeg" alt="Birthday Party🎉">
                         <div class="content">
                             <h1>Birthday Party🎉</h1>
                         </div>
                     </div>
 
                     <div class="img-text">
-                        <img src="img/gallery/flower3.jpeg" alt="gallery">
+                        <img src="img/gallery/flower3.jpeg" alt="Flower Rangoli🎈💐">
                         <div class="content">
                             <h1>Flower Rangoli🎈💐</h1>
                         </div>
                     </div>
 
                     <div class="img-text">
-                        <img src="img/gallery/bday4.jpeg" alt="gallery">
+                        <img src="img/gallery/bday4.jpeg" alt="Birthday Party🎉">
                         <div class="content">
                             <h1>Birthday Party🎉</h1>
                         </div>
@@ -614,22 +614,11 @@
         </div>
 
         <!-- modal popup -->
-        <div class="preview-box">
-            <div class="details">
-                <span class="title">
-                    Image <p class="current-img">3</p> of <p class="total-img">21</p>
-                </span>
-                <span class="icon fas fa-times"></span>
-            </div>
-            <div class="img-box">
-                <div class="slide prev">
-                    <i class="fas fa-angle-left"></i>
-                </div>
-                <div class="slide next">
-                    <i class="fas fa-angle-right"></i>
-                </div>
-                <img src="img/gallery/wed8.jpeg" alt="" height="350">
-            </div>
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img id="modalImage" class="modal-content" src="" alt="">
+            <div id="modalCaption" class="caption"></div>
+
         </div>
         <!-- Gallery section end -->
 
@@ -906,5 +895,50 @@
         emailjs.init("fuPuJfq8qOUfIPi_a");
     </script>
 
+    <script>
+        // Get all elements with class "img-text"
+        const imageTexts = document.querySelectorAll('.img-text');
+
+        // Get modal elements
+        const modal = document.getElementById('imageModal');
+        const modalImage = document.getElementById('modalImage');
+        const modalCaption = document.getElementById('modalCaption');
+        const closeModal = document.querySelector('.close');
+        
+
+        // Add click event listener to each image text
+        imageTexts.forEach((imageText) => {
+            imageText.addEventListener('click', () => {
+                // Get image source and title from the clicked element
+                const img = imageText.querySelector('img');
+                const txtraw = imageText.querySelector('h1');
+                const txt = txtraw.textContent;
+                const imgSrc = img.src;
+                const imgAlt = txt;
+
+                // Set modal image source and title
+                modalImage.src = imgSrc;
+                modalCaption.textContent = imgAlt;
+
+                // Display the modal
+                modal.style.display = 'block';
+            });
+        });
+
+        // Close the modal when the "x" button is clicked
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Close the modal when clicking outside the modal content
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+    </script>
+
 </body>
+
 </html>
