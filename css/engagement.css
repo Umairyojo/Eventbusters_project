@@ -4,3 +4,10 @@
     background-size: cover;
     backdrop-filter: blur(7px);
 }
+
+@media (min-width: 1024px) {
+    #imageModal{
+        top: 205rem !important;
+        height: 125% !important;
+    }
+}
