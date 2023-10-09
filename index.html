@@ -17,7 +17,9 @@
 
 </head>
 
-<body>
+<body onload="myFunction()">
+
+    <div class="" id="loading"></div>
 
     <!-- header start -->
     <header>
@@ -898,6 +900,13 @@
 
     <script src="js/modal_pop_up.js"></script>
 
-</body>
+    <script>
+        var preloader = document.getElementById('loading');
 
+        function myFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+</body>
 </html>
