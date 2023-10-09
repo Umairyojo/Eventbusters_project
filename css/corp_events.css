@@ -151,3 +151,26 @@ form input{
 }
 
 /* form end ------------------------------------------ */
+
+/* gallery modal css */
+@media (min-width: 1024px) {
+    #imageModal{
+        top: 45% !important;
+        /* height: 100% !important; */
+        min-height: 400%;
+    }
+}
+
+@media (min-width:469px) and (max-width: 668px) {
+    #imageModal{
+        top: 45% !important;
+        height: 350% !important;
+    }
+}
+
+@media (max-width: 468px) {
+    #imageModal{
+        top: 45% !important;
+        height: 200% !important;
+    }
+}
