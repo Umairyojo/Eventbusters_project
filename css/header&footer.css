@@ -477,3 +477,21 @@ footer {
     }
 }
 /* gallery css end --------------------------------------------------*/
+
+/* special css mob view  */
+
+@media (max-width:468px) {
+    #navbModal .modal-header h2{
+        font-size: medium;
+    }
+
+    .container-fluid .navb-logo h2{
+        font-size: 100%;
+    }
+}
+
+@media (min-width:762px) {
+    .carousel-inner .carousel-item img{
+        height: 90vh;
+    }
+}
