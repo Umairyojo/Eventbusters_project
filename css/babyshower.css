@@ -4,3 +4,32 @@
     background-size: cover;
     backdrop-filter: blur(7px);
 }
+
+/* gallery modal css */
+@media (min-width: 1024px) {
+    #imageModal{
+        top: 192rem !important;
+        height: 125% !important;
+    }
+}
+
+@media (min-width:469px) and (max-width: 668px) {
+    #imageModal{
+        top: 343rem !important;
+        height: 85% !important;
+    }
+}
+
+@media (max-width: 468px) {
+    #imageModal{
+        top: 330rem !important;
+        height: 75% !important;
+    }
+}
+
+@media (max-width: 392px) {
+    #imageModal{
+        top: 334rem !important;
+        height: 75% !important;
+    }
+}

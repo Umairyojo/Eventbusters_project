@@ -1,10 +1,4 @@
-.eb-engmnt{
-    background-image: url(/img/Services/engagement/engmnt9.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(7px);
-}
-
+/* gallery modal css */
 @media (min-width: 1024px) {
     #imageModal{
         top: 200rem !important;
