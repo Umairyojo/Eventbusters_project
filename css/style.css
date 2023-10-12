@@ -287,6 +287,9 @@ header .container-fluid {
 
 /* header submenu navbar css start */
 
+#serve{
+    position: relative;
+}
 
 #eb-navbar .submenu-1{
     display: none;
@@ -294,8 +297,8 @@ header .container-fluid {
     z-index: 2;
     float: left;
     background-color: #F3DCA9;
-    right: 11.7rem;
-    top: 8.2rem;
+    right: 0rem;
+    top: 2.8rem;
     text-align: left;
     padding: 12px;
     border-radius: 10px;
@@ -964,6 +967,10 @@ footer{
     transition: all .5s ease;
 }
 
+.service-container{
+    row-gap: 20px;
+}
+
 .card-container .card{
     width: 225px;
     background-color: black;
@@ -1022,6 +1029,16 @@ footer{
 
 #eb-ot-service{
     background-color: rgb(215, 15, 215);
+    row-gap: 20px;
+}
+
+#theater h5{
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+#eb-ot-service .inner{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 /* other services css end */
 
