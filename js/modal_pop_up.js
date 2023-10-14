@@ -42,6 +42,30 @@ window.addEventListener('click', (event) => {
 
 // ------------------------------------------------------------------------------------------
 
+// Get the modal and video elements
+var popup = document.getElementById("videoPopup");
+var popupVideo = document.getElementById("popupVideo");
+var closeBtn = document.getElementById("closePopup");
+var videoItems = document.querySelectorAll(".video-item");
 
+// Function to open the modal
+videoItems.forEach(function (item) {
+    item.onclick = function () {
+        popupVideo.src = item.src;
+        popup.style.display = "Flex";
+    }
+});
+
+// Function to close the modal
+closeBtn.onclick = function () {
+    popup.style.display = "none";
+}
+
+// Close the modal when the user clicks outside of it
+window.onclick = function (event) {
+    if (event.target == popup) {
+        popup.style.display = "none";
+    }
+}
 
 

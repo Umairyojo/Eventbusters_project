@@ -841,74 +841,14 @@ footer{
 /* img-popup */
 
 /* video gallery start -------------------------- */
-.vid-gallery{
-    margin-top: 14px;
-    background-color: #dfbc68;
+#video-section{
+    font-family: 'caveat brush', cursive;
+    background-color: goldenrod;
+    padding: 20px;
     border-radius: 10px;
-    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
-
-.vid-gallery .vid-title{
-    padding-top: 1rem;
-}
-
-.vid-gallery .vid-title h3{
-    font-size: 2rpx;
-    font-weight: bold;
-    font-family: 'Sedgwick Ave Display', cursive;
-    padding: 10px;
-    
-}
-
-.vid-gallery #vid-cols{
-    padding: 2px;
-}
-
-.vid-gallery #vid-cols .vid-text{
-    margin: 5px;
-    margin-top: 5px;
-    line-height: 0px;
-    border: 2px solid;
-    position: relative;
-    cursor: pointer;
-}
-
-.vid-gallery #vid-cols .second{
-    margin-top: 1em;
-}
-
-.vid-gallery #vid-cols .vid-text video{
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
-}
-
-.vid-gallery #vid-cols .vid-text .content{
-    position: absolute;
-    text-align: center;
-    bottom: -0.6%;
-    left: 40%;
-    opacity: 0;
-    color: white;
-    transition: all .3s ease;
-    font-size: small;
-    font-weight: bolder;
-}
-
-.vid-gallery #vid-cols .vid-text:hover .content{
-    opacity: 1;
-    /* display: none; */
-}
-
-.vid-gallery .row{
-    display: flex;
-    justify-content: center;
-    /* flex-direction: column; */
-    align-items: center;
-    padding: 10px;
-}
-
-/* .vid-gallery *{
-    border: 2px solid;
-} */
 /* video gallery end -------------------------- */
 
 /* testimonial section css start */
