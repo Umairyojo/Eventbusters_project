@@ -1,4 +1,9 @@
 /* Gallery styles */
+
+/* .videocontainer{
+    font-family: 'caveat brush', cursive;background-color: goldenrod;padding: 20px;border-radius: 10px;margin-top: 2rem;margin-bottom: 2rem;
+} */
+
 .video-gallery {
     display: flex;
     flex-wrap: wrap;
