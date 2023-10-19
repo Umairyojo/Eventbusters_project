@@ -348,7 +348,7 @@ footer .copy-right p{
 }
 
 footer{
-    background-image: url('/img/blackfloral1.jpg');
+    background-image: url('/img/blackfloral1.webp');
     background-size: cover;
 }
 
@@ -386,7 +386,7 @@ footer{
 /* ------------------------- main content css ------------------------ */
 
 body{
-    background-image: url('/img/gold-bg.jpg');
+    background-image: url('/img/gold-bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
