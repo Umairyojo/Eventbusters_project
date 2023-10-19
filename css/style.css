@@ -823,7 +823,7 @@ footer{
 
 @media screen and (max-width: 768px) {
     .event-gallery .body-gal-imgs img{
-        height: 240px;
+        height: 185px;
     }
 }
 
