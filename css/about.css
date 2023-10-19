@@ -172,7 +172,7 @@ header .item-button:hover {
     margin-left: 0px;
 }
 
-.modal-header h2{
+.modal-header h2 {
     font-weight: 800;
     margin-top: 1rem;
 }
@@ -264,10 +264,16 @@ header .container-fluid {
     background-position: top;
 }
 
+@media (max-width: 468px) {
+    #navbModal .modal-header h2 {
+        font-size: medium;
+    }
+}
+
 /* header css end */
 
-/* footer css start */
-footer .container-fuild .row{
+/* footer css start -----------------------------------*/
+footer .container-fuild .row {
     padding-top: 40px;
     margin-top: 24px;
     border-top: 1px solid black;
@@ -276,19 +282,19 @@ footer .container-fuild .row{
     position: relative;
 }
 
-footer{
+footer {
     width: 100%;
 }
 
-footer .socialicon h3{
+footer .socialicon h3 {
     margin-left: 3rem;
 }
 
-footer .socialicon{
+footer .socialicon {
     padding: 0 70px;
 }
 
-footer .socialicon a{
+footer .socialicon a {
     text-decoration: none;
     padding: 8px 10px;
     padding-top: 14px;
@@ -303,18 +309,18 @@ footer .socialicon a i {
 }
 
 /* hover effect on socialicons */
-footer .socialicon a:hover{
+footer .socialicon a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     transition: 0.5s;
 }
 
-footer .socialicon a:hover i{
+footer .socialicon a:hover i {
     color: whitesmoke;
     transition: 0.5s;
 }
 
 
-footer .copy-right p{
+footer .copy-right p {
     position: absolute;
     text-align: center;
     background-color: black;
@@ -323,7 +329,7 @@ footer .copy-right p{
     width: 100%;
 }
 
-.query{
+.query {
     text-align: center;
     margin: 24px 14px 14px 14px;
     padding: 24px;
@@ -331,23 +337,23 @@ footer .copy-right p{
     border-radius: 10px;
 }
 
-.query p{
-    margin: 1rem ;
+.query p {
+    margin: 1rem;
 }
 
 @media (max-width: 1092px) {
-    header .navb-logo img{
+    header .navb-logo img {
         font-size: 1.5rem !important;
         margin-left: 0rem !important;
     }
-    
-    header .navb-logo h3{
+
+    header .navb-logo h3 {
         font-weight: 300 !important;
         font-size: 12px !important;
     }
 }
 
-footer{
+footer {
     background-image: url('/img/blackfloral1.webp');
     background-size: cover;
 }
@@ -359,11 +365,12 @@ footer{
         align-items: center;
     }
 
-    footer .contactfooter{
+    footer .contactfooter {
         text-align: center;
     }
 
-    footer .buss-name, .socialicon h3{
+    footer .buss-name,
+    .socialicon h3 {
         display: none;
     }
 
@@ -371,7 +378,7 @@ footer{
         margin: 20px;
     }
 
-    footer .contactfooter{
+    footer .contactfooter {
         margin: 10px;
     }
 }
@@ -385,84 +392,85 @@ footer{
 
 /* ------------------------- main content css ------------------------ */
 
-body{
+body {
     background-image: url('/img/gold-bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.about-content, .about-why{
+.about-content,
+.about-why {
     font-family: 'caveat brush', cursive;
 }
 
 /* about css */
-.about-content .banner-img{
+.about-content .banner-img {
     justify-content: center;
     display: flex;
 }
 
-.about-content img{
+.about-content img {
     border-radius: 40px;
     padding: 15px;
-    margin-top: 20px;    
+    margin-top: 20px;
 }
 
-.about-content .abt-txt{
+.about-content .abt-txt {
     padding: 22px;
     margin: 20px;
     border: 2px solid whitesmoke;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     border-radius: 20px;
     box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.about-content .abt-txt h1{
+.about-content .abt-txt h1 {
     font-size: 50px;
     padding: 15px;
 }
 
-.about-content .abt-txt p{
+.about-content .abt-txt p {
     font-size: 22px;
     padding: 16px;
 }
 
-.about-main-section .about-why{
+.about-main-section .about-why {
     padding: 28px;
 }
 
 /* about why css */
-.about-why .why-content{
+.about-why .why-content {
     padding: 18px;
 }
 
-.about-why .collage-image{
+.about-why .collage-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.about-why .collage-image img{
+.about-why .collage-image img {
     border-radius: 10px;
     z-index: 2;
 }
 
-#eb-about-why{
+#eb-about-why {
     position: relative;
     display: flex;
     overflow: hidden;
 }
 
-.container .about-why h1{
+.container .about-why h1 {
     font-size: 50px;
     padding: 15px;
 }
 
-.container .about-why p{
+.container .about-why p {
     font-size: 19px;
     padding: 8px;
 }
 
-.container .about-why{
+.container .about-why {
     justify-content: space-around;
     border: 2px solid black;
     z-index: 2;
@@ -472,18 +480,18 @@ body{
     color: whitesmoke;
 }
 
-#eb-about-why::before{
+#eb-about-why::before {
     content: '';
     position: absolute;
     width: 2370px;
     margin-left: 4rem;
-    height:1000%;
+    height: 1000%;
     background: linear-gradient(#00ccff, #d500f9);
     animation: rotate 4s linear infinite;
 
 }
 
-#eb-about-why::after{
+#eb-about-why::after {
     content: '';
     position: absolute;
     background: #525252;
@@ -491,28 +499,29 @@ body{
 }
 
 @keyframes rotate {
-    form{
+    form {
         transform: rotate(0deg);
     }
-    to{
+
+    to {
         transform: rotate(360deg);
     }
 }
 
 /* about contact css */
-#eb-about-contact{
+#eb-about-contact {
     border: 1px solid whitesmoke;
     border-radius: 3px;
     padding: 28px;
     background-color: black;
 }
 
-.about-contact{
+.about-contact {
     justify-content: space-around;
     color: gold;
 }
 
-.about-contact .about-cnt-us{
+.about-contact .about-cnt-us {
     line-height: 30px;
 }
 
@@ -521,7 +530,7 @@ body{
     line-height: 30px;
 }
 
-.about-contact .about-data a{
+.about-contact .about-data a {
     color: deepskyblue;
     text-decoration: underline;
     font-weight: 200;
@@ -529,7 +538,7 @@ body{
 }
 
 @media (max-width: 992px) {
-    .about-contact .about-data a{
+    .about-contact .about-data a {
         font-size: 17px;
     }
 }
