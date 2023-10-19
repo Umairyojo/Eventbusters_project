@@ -345,6 +345,12 @@ header .container-fluid {
 
 /* carousel styling start-----------------------------*/
 
+@media (max-width: 668px) {
+    .img-holder img{
+        height: 350px;
+    }
+}
+
     @media (max-width: 468px) {
         .img-holder img{
             height: 275px;
