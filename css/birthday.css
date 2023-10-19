@@ -544,6 +544,7 @@ body{
 
 .body-gal-imgs .col img{
     padding: 5px;
+    border-radius: 10px;
 }
 
 .img-text{
