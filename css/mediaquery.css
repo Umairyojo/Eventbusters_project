@@ -8,21 +8,21 @@
 
 @media (min-width:469px) and (max-width: 668px) {
     #imageModal{
-        top: 328rem !important;
-        height: 85% !important;
+        top: 355rem !important;
+        height: 72% !important;
     }
 }
 
 @media (max-width: 468px) {
     #imageModal{
-        top: 317rem !important;
-        height: 63% !important;
+        top: 348rem !important;
+        height: 56% !important;
     }
 }
 
 @media (max-width: 392px) {
     #imageModal{
-        top: 334rem !important;
-        height: 63% !important;
+        top: 365rem !important;
+        height: 52% !important;
     }
 }
